@@ -24,9 +24,9 @@ with open('src/foo.txt', 'r') as f:
 # YOUR CODE HERE
 
 with open("bar.txt", "w") as f:
-    f.write("First Line of text")
-    f.write("\nSecond Line")
-    f.write("\nThird Line")
+    f.write("some cool stuff")
+    f.write("\nother stuff")
+    f.write("\nthird stuff")
 file = open("bar.txt")
 print(file.read())
 file.close() 

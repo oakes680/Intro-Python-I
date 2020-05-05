@@ -33,13 +33,13 @@ from datetime import datetime
 
 
 try:
-    y = int(input("Input the year : "))
+    yy = int(input("Input the year : "))
 except:
-    y = datetime.now().year
+    yy = datetime.now().year
 
 try:
-    m = int(input("Input the month : "))
+    mm = int(input("Input the month : "))
 except:
-    m = datetime.now().month
+    mm = datetime.now().month
     
-print(calendar.month(y, m))
+print(calendar.month(yy, mm))
